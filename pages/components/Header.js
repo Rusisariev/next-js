@@ -10,7 +10,8 @@ const Header = () => {
         <>
             <div className={styles.navbar}>
                 <Page text={'Главная'} href={'/'}/>
-                <Page text={'Игра'} href={'/games'}/>
+                <Page text={'Матрица'} href={'/games'}/>
+
             </div>
         </>
     )
