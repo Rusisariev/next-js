@@ -1,5 +1,4 @@
 import styles from "../sass/footer.module.sass";
-import Image from "next/image";
 
 
 const Footer = () => {
