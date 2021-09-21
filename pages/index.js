@@ -20,7 +20,7 @@ export default function Home() {
 
         <Header />
       <main className={styles.main}>
-
+        <h1>МАРЛЕН КОТ</h1>
       </main>
         <Footer />
     </div>
