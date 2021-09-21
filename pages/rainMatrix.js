@@ -1,6 +1,5 @@
 import { Button } from "@material-ui/core";
 import React, {useRef, useState, useEffect} from "react";
-import Header from "../components/Header";
 import RainStream from "../components/RainStream";
 
 const MatrixRain = props => {
@@ -34,8 +33,8 @@ const MatrixRain = props => {
 				justifyContent: 'center',
 			}}
 			ref={containerRef}>
-			{new Array(streamCount).fill().map(_ => (
-				<RainStream height={containerSize?.height} />
+			{new Array(streamCount).fill().map((_ , id) => (
+				<RainStream height={containerSize?.height} key={id} />
 			))}
 		</div>
         </>
