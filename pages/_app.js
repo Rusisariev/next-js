@@ -1,10 +1,8 @@
-import '../styles/globals.css'
+import '../sass/global.scss'
 import '../sass/pageLink.sass'
 import {Provider} from "react-redux";
-import withRedux from "next-redux-wrapper"
 import React from "react";
 import App from "next/app";
-import rootReducer from "../redux/reducers/rootReducer";
 import {useStore} from "../redux/store";
 
 function MyApp({ Component, pageProps }) {
