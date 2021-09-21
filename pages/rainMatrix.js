@@ -33,8 +33,8 @@ const MatrixRain = props => {
 				justifyContent: 'center',
 			}}
 			ref={containerRef}>
-			{new Array(streamCount).fill().map((_ , id) => (
-				<RainStream height={containerSize?.height} key={id} />
+			{new Array(streamCount).fill().map((el , id) => (
+				<RainStream height={containerSize?.height} key={el + id} />
 			))}
 		</div>
         </>
