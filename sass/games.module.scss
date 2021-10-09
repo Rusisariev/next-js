@@ -1,0 +1,14 @@
+
+.canvas {
+  display: block;
+  background: black;
+}
+.container {
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

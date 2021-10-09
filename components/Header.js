@@ -9,8 +9,8 @@ const Header = () => {
         <>
             <div className="navbar">
                 <Page text={'Главная'} href={'/'}/>
-                <Page text={'Матрица'} href={'/games'}/>
-
+                <Page text={'Игра'} href={'/games'}/>
+                <Page text={'Матрица'} href={'/rainMatrix'}/>
             </div>
         </>
     )

@@ -1,15 +1,11 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import sass from "../sass/games.module.sass"
-
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Games() {
-    return <>
-        <Header/>
-        <div className="container">
-
-        </div>
-        <Footer/>
+    return (
+    <>
+      <Header />
+      <Footer />
     </>
+  );
 }
-
